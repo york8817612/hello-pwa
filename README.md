@@ -13,7 +13,7 @@ https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2
 
 ## Demo
 
-https://jamesjohnson280.github.io/hello-pwa/
+https://york8817612.github.io/hello-pwa/
 
 ## Browser Compatibility
 
