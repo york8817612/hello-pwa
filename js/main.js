@@ -9,7 +9,7 @@ window.onload = () => {
 
 function ROStart( type, element )
 {
-	window.open( 'http://demo.robrowser.com/?demo/2.7/', '_blank', [
+	window.open( 'http://demo.robrowser.com/?demo/2.7/', '_self', [
 		'directories=0',
 		'fullscreen=0',
 		'top='  + ( (window.innerHeight||document.body.clientHeight)-600) / 2,
