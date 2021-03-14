@@ -7,18 +7,52 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="images/hello-icon-152.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="white"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Hello World">
   <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover" />
+		<style type="text/css">
+			body, html { padding:0; margin:0; }
+		</style>
+		<script type="text/javascript">
+			var ROConfig = {
+				remoteClient:    "//grf.robrowser.com/",
+				servers: [{
+					display:     "Demo Server",
+					desc:        "roBrowser's demo server",
+					address:     "127.0.0.1",
+					port:        6900,
+					version:     25,
+					langtype:    12,
+					packetver:   20130618,
+					socketProxy: "wss://connect.robrowser.com/",
+					adminList:   [2000000]
+				}],
+				saveFiles:       true,
+				skipServerList:  true,
+				version:         1.272,
+				plugins: {
+					IntroMessage:  {},
+					LoadingDonate: {}
+				}
+			};
+		</script>
+		<script type="text/javascript" src="https://demo.robrowser.com/?demo/2.7/Online.js?1.272"></script>
+		<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-27773234-1', 'robrowser.com/');
+ga('send', 'pageview', '/demo/');
+setInterval(function(){  ga('send', 'event', 'time', 'ping', 'alive', Date.now() ); }, 60000);
+		</script>
 </head>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">Hello World!</h1>
-	<button onclick="ROStart();">START DEMO</button>
   </div>
   <script src="js/main.js"></script>
 </body>
